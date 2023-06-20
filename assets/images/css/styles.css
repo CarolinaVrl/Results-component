@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap');
 
 
 :root{
@@ -22,3 +22,5 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* - Mobile: 375px
+- Desktop: 1440px */
