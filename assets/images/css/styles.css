@@ -2,10 +2,14 @@
 
 
 :root{
-    --primaryRed: hsl(0, 100%, 67%);
+    --primaryRed: #FF5656;
+    --primaryRedBg:rgba(255,86,86,0.1);
     --primaryOrangey: hsl(39, 100%, 56%);
+    --primaryOrangeyBg: rgba(255,176,30,0.1);
     --primaryGreenTeal: hsl(166, 100%, 37%);
+    --primaryGreenTealBg: rgba(0,188,144,0.1);
     --primaryBlue: hsl(234, 85%, 45%);
+    --primaryBlueBg: rgba(17,26,212,0.1);
     --gradientSlatePurple: hsl(252, 100%, 67%);
     --gradientBlue: hsl(241, 81%, 54%);
     --violetBlue: hsla(256, 72%, 46%, 1);
@@ -13,7 +17,9 @@
     --white: hsl(0, 0%, 100%);
     --paleBlue: hsl(221, 100%, 96%);
     --lightLavender: hsl(241, 100%, 89%);
-    --darkGrayBlue: hsl(224, 30%, 27%)
+    --darkGrayBlue: hsl(224, 30%, 27%);
+    --darkGrayBlueBg: rgba(48,59,89,0.2)
+
 
 }
 
@@ -72,27 +78,29 @@ body{
     display: flex;
     justify-content: space-between;
     color: var(--primaryRed);
-    
-  
-
+    background: var(--primaryRedBg);
+     
 }
 
 .memory{
     display: flex;
     justify-content: space-between;
-    color:var(--primaryOrangey)
+    color:var(--primaryOrangey);
+    background: var(--primaryOrangeyBg);
 
 }
 .visual{
     display: flex;
     justify-content: space-between;
     color: var(--primaryBlue);
+    background: var(--primaryBlueBg);
 
 }
 .verbal{
     display: flex;
     justify-content: space-between;
     color: var(--primaryGreenTeal);
+    background: var(--primaryGreenTealBg);
 }
 .type{
     display: flex;
@@ -100,7 +108,7 @@ body{
     font-size: 10px;
 }
 .hability{
-    background: var(--paleBlue);
+   
     padding: 15px;
     border-radius: 10px;
 }
@@ -111,8 +119,23 @@ body{
 
 }
 span{
-    color: var(--darkGrayBlue   );
+    color: var(--darkGrayBlueBg  );
     font-weight: 800;
+}
+
+button{
+    background: var(--darkGrayBlue);
+    border: none;
+    padding: 15px;
+    border-radius: 70px;
+    color: var(--white);
+    font-weight: 700;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+
 }
 /* - Mobile: 375px
 - Desktop: 1440px */
