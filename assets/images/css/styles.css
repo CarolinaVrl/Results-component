@@ -29,6 +29,10 @@ body{
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.container{
+    width: 360px;
+    
+}
 .your-score{
     background: var(--primaryBlue);
     color: var(--white);
@@ -39,6 +43,7 @@ body{
     padding: 20px 40px;
     gap: 20px;
     border-radius: 0 0 40px 40px;
+    
     
 }
 .container-main{
@@ -52,6 +57,15 @@ body{
     align-items: center;
 
 
+}
+.summary{
+    text-align: left;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--darkGrayBlue);
 }
 .reaction{
     display: flex;
