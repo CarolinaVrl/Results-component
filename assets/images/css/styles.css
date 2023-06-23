@@ -64,32 +64,55 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     color: var(--darkGrayBlue);
 }
+
 .reaction{
     display: flex;
     justify-content: space-between;
+    color: var(--primaryRed);
     
+  
 
 }
+
 .memory{
     display: flex;
     justify-content: space-between;
+    color:var(--primaryOrangey)
 
 }
 .visual{
     display: flex;
     justify-content: space-between;
+    color: var(--primaryBlue);
 
 }
 .verbal{
-
     display: flex;
     justify-content: space-between;
+    color: var(--primaryGreenTeal);
 }
 .type{
     display: flex;
+    gap: 20px;
+    font-size: 10px;
+}
+.hability{
+    background: var(--paleBlue);
+    padding: 15px;
+    border-radius: 10px;
+}
+.hability p{
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--darkGrayBlue);
+
+}
+span{
+    color: var(--darkGrayBlue   );
+    font-weight: 800;
 }
 /* - Mobile: 375px
 - Desktop: 1440px */
