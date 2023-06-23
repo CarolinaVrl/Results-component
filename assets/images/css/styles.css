@@ -27,6 +27,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .your-score{
     background: var(--primaryBlue);
@@ -37,6 +38,7 @@ body{
     justify-content: center;
     padding: 20px 40px;
     gap: 20px;
+    border-radius: 0 0 40px 40px;
     
 }
 .container-main{
@@ -49,6 +51,31 @@ body{
     justify-content: center;
     align-items: center;
 
+
+}
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.memory{
+    display: flex;
+    justify-content: space-between;
+
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+
+}
+.verbal{
+
+    display: flex;
+    justify-content: space-between;
+}
+.type{
+    display: flex;
 }
 /* - Mobile: 375px
 - Desktop: 1440px */
