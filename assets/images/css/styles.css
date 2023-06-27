@@ -12,7 +12,7 @@
     --primaryBlueBg: rgba(17,36,212,0.1);
     --gradientSlatePurple: hsl(252, 100%, 67%);
     --gradientBlue: rgb(45,42,232);
-    --violetBlue: hsla(256, 72%, 46%, 1);
+    --violetBlue: rgb(77,32,201)
     --persianBlue: hsla(241, 72%, 46%, 0);
     --white: hsl(0, 0%, 100%);
     --paleBlue: hsl(221, 100%, 96%);
@@ -146,6 +146,8 @@ button{
 }
 button:hover{
     cursor: pointer;
+    background: linear-gradient(0deg, rgba(17,36,212,1) 32%, rgba(77,32,201,1) 61%);
+    scale: 105%;
 
 }
 /* - Mobile: 375px
