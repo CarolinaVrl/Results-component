@@ -9,9 +9,9 @@
     --primaryGreenTeal: hsl(166, 100%, 37%);
     --primaryGreenTealBg: rgba(0,188,144,0.1);
     --primaryBlue: hsl(234, 85%, 45%);
-    --primaryBlueBg: rgba(17,26,212,0.1);
+    --primaryBlueBg: rgba(17,36,212,0.1);
     --gradientSlatePurple: hsl(252, 100%, 67%);
-    --gradientBlue: hsl(241, 81%, 54%);
+    --gradientBlue: rgb(45,42,232);
     --violetBlue: hsla(256, 72%, 46%, 1);
     --persianBlue: hsla(241, 72%, 46%, 0);
     --white: hsl(0, 0%, 100%);
@@ -61,7 +61,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(353deg, rgba(45,42,232,1) 19%, rgba(17,36,212,1) 54%);
 
+
+}
+.main-result{
+    font-size: 40px;
+    text-align: center;
+}
+.text{
+    font-size: 14px;
+    color: var(--lightLavender);
 
 }
 .summary{
@@ -122,6 +132,7 @@ span{
     color: var(--darkGrayBlueBg  );
     font-weight: 800;
 }
+
 
 button{
     background: var(--darkGrayBlue);
